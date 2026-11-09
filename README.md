@@ -95,16 +95,6 @@ Deterministic seeds are set for Python, NumPy, PyTorch, data partitioning, model
 
 The noisy client is identified in the client data summary and per-client metrics. Compare its clean validation trajectory against the four clean clients and compare FedProx/FedAvg global trajectories. Do not interpret a one-seed difference as statistical significance. Results tables and plots in this repository should be generated from run outputs, never manually filled with estimates.
 
-## Submission email draft
-
-**Subject:** PathMNIST FedAvg vs FedProx project submission
-
-Dear [Recipient],
-
-Please find attached the one-page summary of my reproducible federated-learning comparison of FedAvg and FedProx on PathMNIST. The implementation, configuration, and reproduction instructions are available at **[insert verified GitHub repository URL after publishing]**. The experiment logs are available at **[insert verified public W&B project URL after uploading and setting project visibility to Public]**.
-
-The attached PDF is `summary.pdf`. Where experiment outputs are pending, I will regenerate and attach the results-populated version after the configured runs complete.
-
 Sincerely,  
 [Your name]
 
