@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+wandb/
+results/*.csv
+results/*.json
+results/*.log
+plots/*.png
+plots/*.pdf
+summary.pdf
+.env
+
+# Local environment and secrets
+.venv/
+venv/
+.env
+.netrc
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Downloaded dataset and local W&B files
+data/
+wandb/

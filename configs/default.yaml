@@ -1,0 +1,22 @@
+seed: 0
+data_dir: ./data
+output_dir: ./results
+plot_dir: ./plots
+num_clients: 5
+dirichlet_alpha: 0.3
+noisy_client: 0
+noise_rate: 0.40
+rounds: 30
+local_epochs: 2
+batch_size: 128
+learning_rate: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+mu: 0.01
+num_workers: 0
+device: auto
+download: true
+wandb:
+  enabled: false
+  project: pathmnist-fedavg-fedprox
+  entity: null
